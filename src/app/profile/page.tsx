@@ -1,3 +1,5 @@
+'use client';
+
 import { UserProfileCard, type UserProfileData } from '@/components/app/UserProfileCard';
 import { InterestTagManager } from '@/components/app/InterestTagManager';
 import { InvitationDetailsCard } from '@/components/app/InvitationDetailsCard';
