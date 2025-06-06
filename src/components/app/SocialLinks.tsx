@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import type { LucideIcon } from 'lucide-react';
-import { Instagram, Twitter, Linkedin, Facebook, Spotify, Github, Youtube, Link as LinkIcon } from 'lucide-react';
+import { Instagram, Twitter, Linkedin, Facebook, Github, Youtube, Link as LinkIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
@@ -19,7 +19,6 @@ const socialIconMap: Record<string, LucideIcon> = {
   twitter: Twitter,
   linkedin: Linkedin,
   facebook: Facebook,
-  spotify: Spotify,
   github: Github,
   youtube: Youtube,
   default: LinkIcon,
